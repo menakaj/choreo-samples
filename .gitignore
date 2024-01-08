@@ -40,3 +40,9 @@ dist
 
 # Temp files
 *~
+
+# vscode
+.vscode/
+
+# maven
+target/
