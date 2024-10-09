@@ -64,6 +64,8 @@ func main() {
 
 func greet(w http.ResponseWriter, r *http.Request) {
 	name := r.URL.Query().Get("name")
+	fmt.Printf("CHOREO_TBOOKING_SERVICE_URL: " + os.Getenv("CHOREO_TBOOKING_SERVICE_URL"))
+	fmt.Printf("CHOREO_TBOOKING_SERVICEURL: " + os.Getenv("CHOREO_TBOOKING_SERVICEURL"))
 	if name == "" {
 		name = "Stranger"
 	}
