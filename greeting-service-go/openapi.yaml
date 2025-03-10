@@ -6,7 +6,7 @@ paths:
   /greeter/greet:
     get:
       summary: Greet a person
-      description: Greet a person by name
+      description: Greet a psssssaaaerson by name
       tags:
         - greeting
       parameters:
