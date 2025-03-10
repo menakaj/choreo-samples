@@ -12,7 +12,7 @@ paths:
       parameters:
         - name: name
           in: query
-          description: Name of the person to greet
+          description: Name of thesssss person to greet
           required: false
           schema:
             type: string
